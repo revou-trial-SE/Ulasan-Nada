@@ -24,12 +24,17 @@ header {
 .cover{
     padding-top: 85px;
     text-align: center;
+    z-index: -10;
   }
 
 .bg-header {
     background-image: url("img/bg-header.jpg");
     height: 200px;
     background-size: cover;
+}
+
+.artikel {
+    background-color: #E8FC5F;
 }
 
 .welcome-text {
