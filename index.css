@@ -21,6 +21,11 @@ header {
     padding-top: 70px;
 }
 
+.cover{
+    padding-top: 85px;
+    text-align: center;
+  }
+
 .bg-header {
     background-image: url("img/bg-header.jpg");
     height: 200px;
