@@ -1,0 +1,71 @@
+.navbar {
+    position: fixed;
+    z-index: 1;
+}
+
+.navbar_logo {
+    height: auto!important;
+    width: 100px;
+
+}
+.nav-menu {
+    color: white;
+    font-family: Inter, sans-serif;
+    font-size: 15.25px;
+    font-weight: 900;
+    line-height: 120.66%;
+    text-transform: capitalize;
+}
+
+header {
+    padding-top: 70px;
+}
+
+.bg-header {
+    background-image: url("img/bg-header.jpg");
+    height: 200px;
+    background-size: cover;
+}
+
+.welcome-text {
+    color:whitesmoke;
+}
+
+.header-border {
+    width: fit-content;
+    border-bottom: 2px dashed black;
+}
+
+.self-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+}
+
+.personal-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.personal-info{
+    text-align: justify;
+    margin-left: 5%;
+}
+
+.skill-icon {
+    width: 60%;
+    height: 60%;
+}
+
+@media screen and (max-width: 576px) {
+    .personal-container {
+        flex-direction: column;
+    }
+
+    .personal-info {
+        margin-left: 0;
+        margin-top: 5%;
+    }
+}
