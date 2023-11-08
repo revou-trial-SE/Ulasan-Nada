@@ -37,6 +37,14 @@ header {
     background-color: #E8FC5F;
 }
 
+.artikel2 {
+    font-family: Inter, sans-serif;
+    font-size: 15.25px;
+    font-weight: 900;
+    line-height: 120.66%;
+    text-transform: capitalize;
+}
+
 .welcome-text {
     color:whitesmoke;
 }
